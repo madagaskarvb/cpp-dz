@@ -63,7 +63,7 @@ public:
     int getPrice() const {
         return price;
     }
-}
+};
 
 
 int main()
