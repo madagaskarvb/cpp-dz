@@ -40,8 +40,6 @@ public:
         return *this;
     }
 
-    friend ostream& operator<<(ostream& os, const Car& car);
-
     void setColour(const char* c) {
         colour = c;
     }
